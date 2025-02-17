@@ -7,6 +7,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+
 public class CategoryDAO extends DBContext {
 
     // get all
@@ -67,6 +68,7 @@ public class CategoryDAO extends DBContext {
             st.setInt(2, id);
             st.executeUpdate();
         } catch (Exception e) {
+            System.out.println(e);
         }
     }
 

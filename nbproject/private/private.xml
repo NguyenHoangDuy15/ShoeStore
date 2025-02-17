@@ -11,12 +11,16 @@
             <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/dal/UserDAO.java</file>
             <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/dal/DBContext.java</file>
             <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/Filler/LoginFillter.java</file>
+            <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/dal/CategoryDAO.java</file>
             <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/local/OrderController/AddOrder.java</file>
             <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/Model/User.java</file>
+            <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/dal/DetailDAO.java</file>
             <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/local/UserController/LoginServlet.java</file>
             <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/local/AccountController/DeleteSeller.java</file>
             <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/local/ListController/ListSeller.java</file>
+            <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/local/ProfileController/emailServlet.java</file>
+            <file>file:/C:/Users/DELL/Desktop/ProjectPRJ301/ShoesShop-master/src/java/local/ProductController/AddProductServlet.java</file>
         </group>
     </open-files>
 </project-private>

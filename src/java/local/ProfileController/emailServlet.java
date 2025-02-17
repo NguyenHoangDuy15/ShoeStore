@@ -17,7 +17,7 @@ public class emailServlet extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
     private static final String EMAIL_REGEX = "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$";
-    private boolean updateSuccessful;
+    public boolean updateSuccessful;
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
