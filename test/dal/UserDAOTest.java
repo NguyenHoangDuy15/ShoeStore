@@ -14,10 +14,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import util.MaHoa;
 
-/**
- *
- * @author DELL
- */
+
 public class UserDAOTest {
 
     @Test
