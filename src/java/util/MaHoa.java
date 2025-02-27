@@ -18,7 +18,4 @@ public class MaHoa {
         }
         return result;
     }
-    public static void main(String[] args) {
-        System.out.println(toSHA1("151004"));
-    }
 }
