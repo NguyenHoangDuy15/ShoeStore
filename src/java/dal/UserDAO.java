@@ -163,18 +163,6 @@ public class UserDAO extends DBContext {
 
     // create
     public void addSeller(String user, String pass, String name, String email, String dob, String gender, String address) {
-//        String sql = "INSERT INTO [dbo].[User]\n"
-//                + "           ([Username]\n"
-//                + "           ,[Password]\n"
-//                + "           ,[Fullname]\n"
-//                + "           ,[Email]\n"
-//                + "           ,[RollID])\n"
-//                + "     VALUES\n"
-//                + "           (?\n"
-//                + "           ,?\n"
-//                + "           ,?\n"
-//                + "           ,?\n"
-//                + "           ,2)";
         String sql = "INSERT INTO [dbo].[User]\n"
                 + "           ([Username]\n"
                 + "           ,[Password]\n"
