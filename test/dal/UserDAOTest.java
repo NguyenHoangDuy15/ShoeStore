@@ -25,7 +25,8 @@ public class UserDAOTest {
         // Tài khoản muốn nhận được
         MaHoa change = new MaHoa();
         String password = change.toSHA1("123");
-        User expected = new User(3, "theanh", password, "Nguyễn Thế Anh", "anhnt@fpt.edu.vn", null, null, null, 2);
+        User expected = new User(3, "theanh", password, 
+                "Nguyễn Thế Anh", "anhnt@fpt.edu.vn", null, null, null, 2);
         // Tài khoản được lấy ra
         UserDAO dao = new UserDAO();
         User result = dao.getUserByUserId(ID);
@@ -42,8 +43,10 @@ public class UserDAOTest {
         // Kết quả muốn nhận được
         List<User> listExpect = new ArrayList<>();
         MaHoa change = new MaHoa();
-        User seller1 = new User(3, "theanh", change.toSHA1("123"), "Nguyễn Thế Anh", "anhnt@fpt.edu.vn", null, null, null, 2);
-        User seller2 = new User(4, "anhquan", change.toSHA1("123"), "Nguyễn Anh Quân", "quanna@fpt.edu.vn", null, null, null, 2);
+        User seller1 = new User(3, "theanh", change.toSHA1("123"), 
+                "Nguyễn Thế Anh", "anhnt@fpt.edu.vn", null, null, null, 2);
+        User seller2 = new User(4, "anhquan", change.toSHA1("123"), 
+                "Nguyễn Anh Quân", "quanna@fpt.edu.vn", null, null, null, 2);
         listExpect.add(seller1);
         listExpect.add(seller2);
         // Kết quả nhận được
@@ -55,4 +58,15 @@ public class UserDAOTest {
         // Kết quả
         assertEquals(listExpect.toString(), listResult.toString());
     }
+    
+    //khong phai void
+    // checkWithGmail
+    // check(String username, String password)
+    // List<User> getAll()
+    
+    //void
+    //changePass(String pass, int id)
+    //delete(String id)
+    //add(String user, String pass, String name, String email)
+    
 }
