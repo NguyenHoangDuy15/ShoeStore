@@ -124,7 +124,7 @@ public class UserDAOTest {
         // Kết quả
         assertEquals(listExpect.toString(), listResult.toString());
     }
-    // check(String username, String password)
+    // check(String username, String password) 
     
     //void
     //changePass(String pass, int id)
