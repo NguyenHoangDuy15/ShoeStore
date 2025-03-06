@@ -4,6 +4,7 @@ import java.util.*;
 import java.lang.*;
 
 public class Product {
+
     private int ProductID;
     private String ProductName;
     private Double Price;
@@ -73,7 +74,9 @@ public class Product {
 
     @Override
     public String toString() {
-        return "Product{" + "ProductID=" + ProductID + ", ProductName=" + ProductName + ", Price=" + Price + ", image=" + image + ", describe=" + describe + ", CategoryID=" + CategoryID + '}';
+        return "Product{ID=" + ProductID
+                + ", Name='" + ProductName
+                + "', Price=" + Price
+                + ", Image='" + image + "'}";
     }
-    
 }

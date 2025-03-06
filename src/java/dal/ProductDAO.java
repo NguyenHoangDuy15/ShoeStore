@@ -88,6 +88,7 @@ public class ProductDAO extends DBContext {
                 + "      ,[describe] = ?\n"
                 + "      ,[CategoryID] = ?\n"
                 + " WHERE ProductID = ?";
+        
         try {
             PreparedStatement st = connection.prepareStatement(sql);
             st.setString(1, name);
